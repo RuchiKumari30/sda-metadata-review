@@ -1,0 +1,73 @@
+============================================================
+  SDA METADATA PLATFORM – DATA QUALITY REVIEW SUMMARY
+  Generated: 2026-06-15 18:07
+============================================================
+
+Total submissions received : 25
+Submissions passing checks : 14
+Submissions with issues    : 11
+
+PASS RATE: 56.0%
+
+── MOST COMMON ISSUE TYPES ─────────────────────────────
+  [ 4]  Missing data owner name
+  [ 4]  DPDP inconsistency: personal data marked Yes but classification is not Restricted/Confidential
+  [ 2]  Description is blank
+  [ 2]  Record count is blank (dataset is not a live API)
+  [ 2]  Data classification is blank
+  [ 1]  last_updated date format invalid: '30-11-2024' (expected YYYY-MM-DD)
+  [ 1]  submitted_on date format invalid: '04/13/2026' (expected YYYY-MM-DD)
+
+── CROSS-CHECK WITH COMPLIANCE TRACKER ─────────────────
+  Correctly Approved       : 14
+  Correctly Pending        : 11
+  Potentially Mis-Approved : 0
+  Potentially Ready to Approve: 0
+
+── FLAGGED SUBMISSIONS DETAIL ───────────────────────────
+
+  META-002 | Basic Education Department
+  Dataset : School Enrollment Data DISE
+  Issues  : Missing data owner name
+
+  META-003 | Basic Education Department
+  Dataset : Mid-Day Meal Attendance
+  Issues  : Description is blank; Record count is blank (dataset is not a live API)
+
+  META-005 | Health Department
+  Dataset : Patient Admission Records District Hospitals
+  Issues  : DPDP inconsistency: personal data marked Yes but classification is not Restricted/Confidential
+
+  META-007 | Agriculture Department
+  Dataset : Farmer Registration PM-KISAN
+  Issues  : Data classification is blank; DPDP inconsistency: personal data marked Yes but classification is not Restricted/Confidential
+
+  META-009 | Urban Development Department
+  Dataset : Building Permit Applications
+  Issues  : Record count is blank (dataset is not a live API)
+
+  META-010 | Energy Department
+  Dataset : UPPCL Consumer Billing Data
+  Issues  : Missing data owner name; last_updated date format invalid: '30-11-2024' (expected YYYY-MM-DD)
+
+  META-013 | Home Department
+  Dataset : FIR and Crime Statistics
+  Issues  : Missing data owner name
+
+  META-015 | Women & Child Development
+  Dataset : Anganwadi Beneficiary Data
+  Issues  : DPDP inconsistency: personal data marked Yes but classification is not Restricted/Confidential; submitted_on date format invalid: '04/13/2026' (expected YYYY-MM-DD)
+
+  META-018 | Transport Department
+  Dataset : Driving Licence Records SARATHI
+  Issues  : Description is blank
+
+  META-020 | Food & Civil Supplies
+  Dataset : PDS Beneficiary Records
+  Issues  : Data classification is blank; DPDP inconsistency: personal data marked Yes but classification is not Restricted/Confidential
+
+  META-024 | Labour Department
+  Dataset : Contract Labour Registration
+  Issues  : Missing data owner name
+
+============================================================

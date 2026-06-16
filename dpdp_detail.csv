@@ -1,0 +1,8 @@
+submission_id,department,dataset_title,data_classification,classification_correct,data_steward_assigned,steward_ok,fully_compliant
+META-005,Health Department,Patient Admission Records District Hospitals,Public,No,Yes,Yes,NO - action needed
+META-007,Agriculture Department,Farmer Registration PM-KISAN,(blank),No,No,No,NO - action needed
+META-009,Urban Development Department,Building Permit Applications,Restricted,Yes,Yes,Yes,Yes
+META-012,Social Welfare Department,Pension Scheme Beneficiaries,Restricted,Yes,Yes,Yes,Yes
+META-015,Women & Child Development,Anganwadi Beneficiary Data,Public,No,No,No,NO - action needed
+META-018,Transport Department,Driving Licence Records SARATHI,Restricted,Yes,Yes,Yes,Yes
+META-020,Food & Civil Supplies,PDS Beneficiary Records,(blank),No,No,No,NO - action needed
